@@ -1,0 +1,73 @@
+body{
+    background-color: #f8f4f4;
+}
+#profile{
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+#profile .member_welcome{
+
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(245, 244, 244);
+    border-radius: 10px;
+    align-self: center;
+
+    
+}
+#profile h4{
+    margin-left: 10px;
+
+}
+#profile button{
+    display: flex;
+    margin: 10px;
+    background-color: rgb(245, 244, 244);
+    border-radius: 10px;
+    transition: .4s;
+    justify-content: flex-start;
+    
+}
+#profile button:hover{
+    transition: .4s;
+    background-color:rgb(233, 233, 233);
+    
+}
+
+#profile .content{
+    width: 70%;
+    height: auto;
+    margin: 50px 50px 0 10px ;
+    border-radius: 10px;
+ 
+
+}
+#profile .content h2 {
+    margin-bottom:   50px ;
+}
+
+
+#username {
+    padding:   20px ;
+    border-bottom:1px solid silver ;
+
+
+}
+.content a {
+    margin-left:10px;
+
+    
+}
+
+
+#icon{
+    padding-right: 5px;
+    color: black;
+    font-size: 19px;
+ 
+}
+
